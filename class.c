@@ -906,3 +906,53 @@
 //     printf("%d %d %d",a,++a,a++);
 //     return 0;
 // }
+
+#include <stdio.h>
+
+int main()
+{
+    char c;
+    printf("Enter any alphabet: ");
+    scanf("%c", &c);
+
+    switch(c)
+    {
+        case 'a': 
+        case 'e': 
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A': 
+        case 'E': 
+        case 'I':
+        case 'O':
+        case 'U': 
+            printf("%c is a vowel\n", c);
+            break;
+        default: 
+            printf("%c is a consonant\n", c);
+    }
+
+    return 0;
+}
+
+//write a program to perform addition,subtraction,division and multiplication of two numbers given as
+#include<stdio.h>
+int main()
+{
+    float a,b,sum,difference,division,product;
+    printf("Enter the value of a:");
+    scanf("%f",&a);
+    printf("Enter the value of b:");
+    scanf("%f",&b);
+    sum=a+b;
+    printf("Value of a+b:%f\n",sum);
+    difference=a-b;
+    printf("Value of a-b:%f\n",difference);
+    division=a/b;
+    printf("Value of a/b:%f\n",division);
+    product=a*b;
+    printf("Value of a*b:%f\n",product);
+    return 0;
+}
+
